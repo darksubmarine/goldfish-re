@@ -28,7 +28,7 @@ go install github.com/darksubmarine/goldfish-re
 ## Examples
  
  - [Starterkit](https://github.com/darksubmarine/goldfish-re/tree/master/examples/starterkit)
- - [Advance](https://github.com/darksubmarine/goldfish-re/tree/master/examples/advance)
+ - [Advance](https://github.com/darksubmarine/goldfish-re/tree/master/examples/advanced)
 
 
 ## License
