@@ -1,0 +1,100 @@
+# Dark Submarine_ docs: Material + MkDocs, an excellent static site generator geared towards project documentation.
+# It is built using Google's Material Design guidelines
+
+#--------------------------------
+#  PROJECT CUSTOM CONFIGURATION
+#--------------------------------
+
+# Project information
+site_name: Goldfish-RE
+site_description: Reactive and Embeddable rules engine
+site_author: Dark Submarine_
+site_url: https://www.darksubmarine.com/
+
+repo_name: 'darksubmarine/goldfish-re'
+repo_url: 'https://github.com/darksubmarine/goldfish-re'
+edit_uri: ''
+
+# Main menu
+nav:
+  - Introduction: index.md
+  - Quick Start: starthere.md
+  - Data types: datatypes.md
+  - Key concepts: keyconcepts.md
+  - Limitations: limitations.md
+
+use_directory_urls: false
+
+# Uncomment next line to change default (docs) documentation folder
+docs_dir: files
+
+# Uncomment next line to disable "search" plugin
+#plugins: []
+
+#-------------------------------
+# SITE AND THEME CONFIGURATIONS
+#-------------------------------
+
+# Copyright
+copyright: 'Copyright &copy; 2022 Dark Submarine LLC'
+
+theme:
+  name: material
+  logo: 'img/logo.svg'
+  favicon: 'img/favicon.png'
+  palette:
+    primary: 'white'
+    accent: 'red'
+  font:
+    text: 'Ubuntu'
+    code: 'Ubuntu Mono'
+  feature:
+    tabs: true
+  features:
+     - content.code.annotate
+  icon:
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+
+
+extra_css:
+  - 'css/extra.css'
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: 'https://www.darksubmarine.com'
+
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - admonition
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: 1
+  - pymdownx.tabbed:
+      alternate_style: true
+
+
+
+
