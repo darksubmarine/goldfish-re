@@ -1,0 +1,11 @@
+version: '3'
+services:
+  docs:
+    build: .
+    image: "${DS_MKDOCS_SERVICENAME}"
+    container_name: "${DS_MKDOCS_SERVICENAME}_docs"
+    command: "mkdocs serve -a0.0.0.0:${DS_MKDOCS_PORT}"
+    ports:
+      - "${DS_MKDOCS_PORT}:${DS_MKDOCS_PORT}"
+    volumes: 
+      - ./files:/usr/src/app/files:ro
