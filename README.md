@@ -1,4 +1,9 @@
 # Goldfish-RE
+[![Goldfish-RE Build and Tests](https://github.com/darksubmarine/goldfish-re/actions/workflows/ci-cd.yml/badge.svg?branch=main)](https://github.com/darksubmarine/goldfish-re/actions?query=branch%3Amain)
+[![Go Report Card](https://goreportcard.com/badge/github.com/darksubmarine/goldfish-re)](https://goreportcard.com/report/github.com/darksubmarine/goldfish-re)
+[![GoDoc](https://pkg.go.dev/badge/github.com/darksubmarine/goldfish-re?status.svg)](https://pkg.go.dev/github.com/darksubmarine/goldfish-re?tab=doc)
+[![Release](https://img.shields.io/github/release/darksubmarine/goldfish-re.svg?style=flat-square)](https://github.com/darksubmarine/goldfish-re/releases)
+
 
 Reactive and Embeddable rules engine library written in pure Go!.
 
